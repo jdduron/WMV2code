@@ -1,0 +1,1053 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Feb 27 15:35:21 2019
+# Process ID: 3172
+# Current directory: V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1
+# Command line: vivado.exe -log base_zynq_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source base_zynq_wrapper.tcl -notrace
+# Log file: V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1/base_zynq_wrapper.vdi
+# Journal file: V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source base_zynq_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 359.813 ; gain = 55.613
+Command: link_design -top base_zynq_wrapper -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.dcp' for cell 'base_zynq_i/TARGET_C_TopLevel_Sy_0'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_axi_dma_0_0/base_zynq_axi_dma_0_0.dcp' for cell 'base_zynq_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_axi_iic_0_0/base_zynq_axi_iic_0_0.dcp' for cell 'base_zynq_i/axi_iic_0'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_axistream_0_0/base_zynq_axistream_0_0.dcp' for cell 'base_zynq_i/axistream_0'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.dcp' for cell 'base_zynq_i/iobuf_0'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.dcp' for cell 'base_zynq_i/iobuf_1'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_processing_system7_0_0/base_zynq_processing_system7_0_0.dcp' for cell 'base_zynq_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_rst_ps7_0_50M_0/base_zynq_rst_ps7_0_50M_0.dcp' for cell 'base_zynq_i/rst_ps7_0_50M'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_xlconcat_0_0/base_zynq_xlconcat_0_0.dcp' for cell 'base_zynq_i/xlconcat_0'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_xlconcat_1_0/base_zynq_xlconcat_1_0.dcp' for cell 'base_zynq_i/xlconcat_1'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_xlconstant_0_0/base_zynq_xlconstant_0_0.dcp' for cell 'base_zynq_i/xlconstant_0'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_auto_pc_1/base_zynq_auto_pc_1.dcp' for cell 'base_zynq_i/axi_interconnect_0/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_xbar_0/base_zynq_xbar_0.dcp' for cell 'base_zynq_i/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'v:/hw/bd/base_zynq/ip/base_zynq_auto_pc_0/base_zynq_auto_pc_0.dcp' for cell 'base_zynq_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 1890 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'base_zynq_i/TARGET_C_TopLevel_Sy_0/BB1' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.edf:476078]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'base_zynq_i/TARGET_C_TopLevel_Sy_0/BB1' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.edf:476079]
+WARNING: [Constraints 18-550] Could not create 'DIFF_TERM' constraint because net 'base_zynq_i/TARGET_C_TopLevel_Sy_0/BB5' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.edf:476101]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'base_zynq_i/TARGET_C_TopLevel_Sy_0/BB5' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.edf:476102]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'base_zynq_i/TARGET_C_TopLevel_Sy_0/BB5' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0/base_zynq_TARGET_C_TopLevel_Sy_0_0.edf:476103]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'base_zynq_i/iobuf_0/I' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.edf:130]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'base_zynq_i/iobuf_0/I' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.edf:131]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'base_zynq_i/iobuf_0/O' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.edf:147]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'base_zynq_i/iobuf_0/T' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.edf:154]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'base_zynq_i/iobuf_0/T' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0/base_zynq_iobuf_0_0.edf:155]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'base_zynq_i/iobuf_1/I' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.edf:130]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'base_zynq_i/iobuf_1/I' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.edf:131]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'base_zynq_i/iobuf_1/O' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.edf:147]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'base_zynq_i/iobuf_1/T' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.edf:154]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'base_zynq_i/iobuf_1/T' is not directly connected to top level port. Synthesis is ignored for v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.edf but preserved for implementation. [v:/hw/bd/base_zynq/ip/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1/base_zynq_iobuf_0_1.edf:155]
+Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_processing_system7_0_0/base_zynq_processing_system7_0_0.xdc] for cell 'base_zynq_i/processing_system7_0/inst'
+Finished Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_processing_system7_0_0/base_zynq_processing_system7_0_0.xdc] for cell 'base_zynq_i/processing_system7_0/inst'
+Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_rst_ps7_0_50M_0/base_zynq_rst_ps7_0_50M_0_board.xdc] for cell 'base_zynq_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_rst_ps7_0_50M_0/base_zynq_rst_ps7_0_50M_0_board.xdc] for cell 'base_zynq_i/rst_ps7_0_50M/U0'
+Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_rst_ps7_0_50M_0/base_zynq_rst_ps7_0_50M_0.xdc] for cell 'base_zynq_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_rst_ps7_0_50M_0/base_zynq_rst_ps7_0_50M_0.xdc] for cell 'base_zynq_i/rst_ps7_0_50M/U0'
+Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_axi_iic_0_0/base_zynq_axi_iic_0_0_board.xdc] for cell 'base_zynq_i/axi_iic_0/U0'
+Finished Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_axi_iic_0_0/base_zynq_axi_iic_0_0_board.xdc] for cell 'base_zynq_i/axi_iic_0/U0'
+Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_axi_dma_0_0/base_zynq_axi_dma_0_0.xdc] for cell 'base_zynq_i/axi_dma_0/U0'
+Finished Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_axi_dma_0_0/base_zynq_axi_dma_0_0.xdc] for cell 'base_zynq_i/axi_dma_0/U0'
+Parsing XDC File [V:/hw/Constraints/DebugCore.xdc]
+Finished Parsing XDC File [V:/hw/Constraints/DebugCore.xdc]
+Parsing XDC File [V:/hw/Constraints/Implementation.xdc]
+WARNING: [Vivado 12-507] No nets matched 'base_zynq_i/TARGETC_IP_Prototype_0/U0/TC_RoundBuffer/GEN_CPU[100].CPUX/NEXTBus_intl*'. [V:/hw/Constraints/Implementation.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [V:/hw/Constraints/Implementation.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'base_zynq_i/TARGETC_IP_Prototype_0/U0/TC_RoundBuffer/CPULAST/NEXTBus_intl*'. [V:/hw/Constraints/Implementation.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [V:/hw/Constraints/Implementation.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'base_zynq_i/TARGETC_IP_Prototype_0/U0/TC_RoundBuffer/WDOCONTROL/PREVBus_intl*'. [V:/hw/Constraints/Implementation.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [V:/hw/Constraints/Implementation.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [V:/hw/Constraints/Implementation.xdc]
+Parsing XDC File [V:/hw/Constraints/Pinout.xdc]
+WARNING: [Vivado 12-584] No ports matched 'PB1'. [V:/hw/Constraints/Pinout.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [V:/hw/Constraints/Pinout.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BB6'. [V:/hw/Constraints/Pinout.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [V:/hw/Constraints/Pinout.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LDAC'. [V:/hw/Constraints/Pinout.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [V:/hw/Constraints/Pinout.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BB6'. [V:/hw/Constraints/Pinout.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [V:/hw/Constraints/Pinout.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [V:/hw/Constraints/Pinout.xdc]
+Parsing XDC File [V:/hw/Constraints/Timing.xdc]
+Finished Parsing XDC File [V:/hw/Constraints/Timing.xdc]
+Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_axi_dma_0_0/base_zynq_axi_dma_0_0_clocks.xdc] for cell 'base_zynq_i/axi_dma_0/U0'
+Finished Parsing XDC File [v:/hw/bd/base_zynq/ip/base_zynq_axi_dma_0_0/base_zynq_axi_dma_0_0_clocks.xdc] for cell 'base_zynq_i/axi_dma_0/U0'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'base_zynq_i/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl:2]
+all_registers: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1334.230 ; gain = 568.805
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'base_zynq_i/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'base_zynq_i/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'base_zynq_i/axi_interconnect_0/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'base_zynq_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'base_zynq_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'base_zynq_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'base_zynq_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 37 instances were transformed.
+  OBUFDS => OBUFDS: 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 36 instances
+
+26 Infos, 22 Warnings, 7 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:29 ; elapsed = 00:02:50 . Memory (MB): peak = 1334.230 ; gain = 974.418
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1334.230 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-2] Deriving generated clocks
+Ending Cache Timing Information Task | Checksum: 1e090e530
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1358.184 ; gain = 23.953
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 9 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 13d43611b
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1358.184 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1a5222347
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1358.184 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 6 cells and removed 56 cells
+
+Phase 3 Sweep
+INFO: [Opt 31-120] Instance base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/PREVADDR_ints (base_zynq_TARGET_C_TopLevel_Sy_0_0_BIT_SELECTOR_331) has been optimized to an empty box cell during sweep but it has constraints that prevent its removal. Empty box cells do not impact the implementation flow but they have no functional relevance.
+Resolution: If this is not expected, please check for DONT_TOUCH properties or timing constraint set on the empty box cell or on nets connected to the cell. If found, remove the relevant DONT_TOUCH property or timing constraint and re-run opt_design.
+INFO: [Opt 31-120] Instance base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer (base_zynq_TARGET_C_TopLevel_Sy_0_0_RoundBufferV6) has been optimized to an empty box cell during sweep but it has constraints that prevent its removal. Empty box cells do not impact the implementation flow but they have no functional relevance.
+Resolution: If this is not expected, please check for DONT_TOUCH properties or timing constraint set on the empty box cell or on nets connected to the cell. If found, remove the relevant DONT_TOUCH property or timing constraint and re-run opt_design.
+INFO: [Opt 31-120] Instance base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/BUSY_CLKBUF/DFF_GEN[0].DFF_B (base_zynq_TARGET_C_TopLevel_Sy_0_0_RisingEdge_DFlipFlop_2) has been optimized to an empty box cell during sweep but it has constraints that prevent its removal. Empty box cells do not impact the implementation flow but they have no functional relevance.
+Resolution: If this is not expected, please check for DONT_TOUCH properties or timing constraint set on the empty box cell or on nets connected to the cell. If found, remove the relevant DONT_TOUCH property or timing constraint and re-run opt_design.
+INFO: [Opt 31-120] Instance base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/BUSY_CLKBUF/DFF_GEN[0].DFF_AB (base_zynq_TARGET_C_TopLevel_Sy_0_0_RisingEdge_DFlipFlop_1) has been optimized to an empty box cell during sweep but it has constraints that prevent its removal. Empty box cells do not impact the implementation flow but they have no functional relevance.
+Resolution: If this is not expected, please check for DONT_TOUCH properties or timing constraint set on the empty box cell or on nets connected to the cell. If found, remove the relevant DONT_TOUCH property or timing constraint and re-run opt_design.
+INFO: [Opt 31-120] Instance base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/BUSY_CLKBUF/DFF_GEN[0].DFF_A (base_zynq_TARGET_C_TopLevel_Sy_0_0_RisingEdge_DFlipFlop) has been optimized to an empty box cell during sweep but it has constraints that prevent its removal. Empty box cells do not impact the implementation flow but they have no functional relevance.
+Resolution: If this is not expected, please check for DONT_TOUCH properties or timing constraint set on the empty box cell or on nets connected to the cell. If found, remove the relevant DONT_TOUCH property or timing constraint and re-run opt_design.
+Phase 3 Sweep | Checksum: 1c1064e0e
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1358.184 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 2 cells and removed 1076 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1c1064e0e
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1358.184 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 1763e5d21
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1358.184 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1b5242891
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1358.184 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 1358.184 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 21d75fb04
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1358.184 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-2.287 | TNS=-2876.948 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 2 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 2 newly gated: 0 Total Ports: 4
+Ending PowerOpt Patch Enables Task | Checksum: 174eec680
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.141 . Memory (MB): peak = 1635.281 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 174eec680
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1635.281 ; gain = 277.098
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 174eec680
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+54 Infos, 22 Warnings, 7 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 1635.281 ; gain = 301.051
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.098 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1/base_zynq_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file base_zynq_wrapper_drc_opted.rpt -pb base_zynq_wrapper_drc_opted.pb -rpx base_zynq_wrapper_drc_opted.rpx
+Command: report_drc -file base_zynq_wrapper_drc_opted.rpt -pb base_zynq_wrapper_drc_opted.pb -rpx base_zynq_wrapper_drc_opted.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1/base_zynq_wrapper_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1635.281 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 155cbd6b9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/BB1_INST_0' is driving clock pin of 2 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/FSM_sequential_startstorage_stm_reg[1] {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/FSM_sequential_startstorage_stm_reg[0] {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TC_RoundBuffer_i_1' is driving clock pin of 6183 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/DIG_STO_AFIFO/pNextWordToRead_reg[2] {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/DIG_STO_AFIFO/pNextWordToRead_reg[0] {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/DIG_STO_AFIFO/pNextWordToRead_reg[1] {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/DIG_STO_AFIFO/pNextWordToRead_reg[4] {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/DIG_STO_AFIFO/pNextWordToRead_reg[3] {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/SIN_i_1' is driving clock pin of 810 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/DIG_STO_AFIFO/Mem_reg[9][6] {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/DIG_STO_AFIFO/Mem_reg[9][1] {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/DIG_STO_AFIFO/Mem_reg[9][3] {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/DIG_STO_AFIFO/Mem_reg[9][4] {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/DIG_STO_AFIFO/Mem_reg[9][5] {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[6].DFFX/Q_i_1__83' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[7].DFFX/CurAddr_s[1]_i_1' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[5].DFFX/Q_i_1__84' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[1].DFFX/Q_i_1__6' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[4].DFFX/Q_i_1__85' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[13].DFFX/Q_i_1__8' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[10].DFFX/Q_i_1__4' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[0].DFFX/Q_i_1__9' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[12].DFFX/Q_i_1__11' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[2].DFFX/Q_i_1__3' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[14].DFFX/Q_i_1__5' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[11].DFFX/Q_i_1__2' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[15].DFFX/Q_i_1__82' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[9].DFFX/Q_i_1__7' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[3].DFFX/Q_i_1__1' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[8].DFFX/Q_i_1__10' is driving clock pin of 12 registers. This could lead to large hold time violations. First few involved registers are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: b6f674b2
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 907431a3
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 907431a3
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1635.281 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 907431a3
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: ebe32925
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 2.2 Physical Synthesis In Placer
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: e19e6de1
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:39 . Memory (MB): peak = 1635.281 ; gain = 0.000
+Phase 2 Global Placement | Checksum: a1907102
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:40 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: a1907102
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:40 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 150413f42
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:44 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 99432d9b
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:44 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: a6a3ecd5
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:44 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: a6a3ecd5
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:44 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: b34f2078
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:00:58 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 132d78f60
+
+Time (s): cpu = 00:01:37 ; elapsed = 00:01:13 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 1e007ee01
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:15 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 1c2768282
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:15 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: 19a686a1d
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:32 . Memory (MB): peak = 1635.281 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 19a686a1d
+
+Time (s): cpu = 00:01:58 ; elapsed = 00:01:32 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1e07ec4bb
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-33] Processed net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[31].DFF_B/Q_reg_0, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-33] Processed net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/WDOSTORE/AXI_Time_AFIFO/CLK_WR2RD/DFF_GEN[5].DFF_B/Q_reg_0, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-31] BUFG insertion identified 2 candidate nets, 0 success, 2 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1e07ec4bb
+
+Time (s): cpu = 00:02:06 ; elapsed = 00:01:38 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-3.943. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 25e89d3f8
+
+Time (s): cpu = 00:03:32 ; elapsed = 00:03:04 . Memory (MB): peak = 1635.281 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 25e89d3f8
+
+Time (s): cpu = 00:03:32 ; elapsed = 00:03:05 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 25e89d3f8
+
+Time (s): cpu = 00:03:32 ; elapsed = 00:03:05 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 25e89d3f8
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:03:05 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 280d7627e
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:03:05 . Memory (MB): peak = 1635.281 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 280d7627e
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:03:05 . Memory (MB): peak = 1635.281 ; gain = 0.000
+Ending Placer Task | Checksum: 1a931bdbc
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:03:05 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+79 Infos, 41 Warnings, 7 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:03:38 ; elapsed = 00:03:09 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:02 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1/base_zynq_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file base_zynq_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file base_zynq_wrapper_utilization_placed.rpt -pb base_zynq_wrapper_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.346 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file base_zynq_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.248 . Memory (MB): peak = 1635.281 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: f2ba789d ConstDB: 0 ShapeSum: b677451f RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 97c18aaa
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1635.281 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 77db4ccc NumContArr: 1fe63dde Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 97c18aaa
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 97c18aaa
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 97c18aaa
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1635.281 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 149ea7bf2
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:24 . Memory (MB): peak = 1635.281 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-4.422 | TNS=-3025.105| WHS=-1.898 | THS=-8356.288|
+
+Phase 2 Router Initialization | Checksum: 116e3d28f
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:27 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: c631156c
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 1635.281 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 3308
+ Number of Nodes with overlaps = 241
+ Number of Nodes with overlaps = 46
+ Number of Nodes with overlaps = 12
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-5.010 | TNS=-28040.947| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 26149bdee
+
+Time (s): cpu = 00:04:34 ; elapsed = 00:03:24 . Memory (MB): peak = 1974.090 ; gain = 338.809
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 252
+ Number of Nodes with overlaps = 353
+ Number of Nodes with overlaps = 72
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-4.598 | TNS=-23795.209| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 27fff0824
+
+Time (s): cpu = 00:04:50 ; elapsed = 00:03:36 . Memory (MB): peak = 1974.090 ; gain = 338.809
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 663
+ Number of Nodes with overlaps = 293
+ Number of Nodes with overlaps = 118
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-4.560 | TNS=-23247.982| WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 33cf3a8d
+
+Time (s): cpu = 00:05:03 ; elapsed = 00:03:45 . Memory (MB): peak = 1974.090 ; gain = 338.809
+Phase 4 Rip-up And Reroute | Checksum: 33cf3a8d
+
+Time (s): cpu = 00:05:03 ; elapsed = 00:03:45 . Memory (MB): peak = 1974.090 ; gain = 338.809
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: ef8c98e9
+
+Time (s): cpu = 00:05:04 ; elapsed = 00:03:45 . Memory (MB): peak = 1974.090 ; gain = 338.809
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-4.560 | TNS=-23241.006| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 1621040e4
+
+Time (s): cpu = 00:05:07 ; elapsed = 00:03:47 . Memory (MB): peak = 1974.090 ; gain = 338.809
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1621040e4
+
+Time (s): cpu = 00:05:07 ; elapsed = 00:03:47 . Memory (MB): peak = 1974.090 ; gain = 338.809
+Phase 5 Delay and Skew Optimization | Checksum: 1621040e4
+
+Time (s): cpu = 00:05:07 ; elapsed = 00:03:47 . Memory (MB): peak = 1974.090 ; gain = 338.809
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 240db1cc1
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:48 . Memory (MB): peak = 1974.090 ; gain = 338.809
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-4.560 | TNS=-23116.916| WHS=-0.007 | THS=-0.007 |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1eebf59ad
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:48 . Memory (MB): peak = 1974.090 ; gain = 338.809
+WARNING: [Route 35-468] The router encountered 859 pins that are both setup-critical and hold-critical and tried to fix hold violations at the expense of setup slack. Such pins are:
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/NextAddr_s_i_2/I0
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/WDOSTORE/AXI_Time_AFIFO/CLK_WR2RD/DFF_GEN[5].DFF_B/CurAddr_s[1]_i_2/I0
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[31].DFF_B/TCReg[129][12]_i_1/I0
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/WDOSTORE/AXI_Time_AFIFO/Mem_reg[6][17]/CE
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/WDOSTORE/AXI_Time_AFIFO/Mem_reg[6][21]/CE
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/WDOSTORE/AXI_Time_AFIFO/Mem_reg[6][31]/CE
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/WDOSTORE/AXI_Time_AFIFO/Mem_reg[1][21]/CE
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/WDOSTORE/AXI_Time_AFIFO/Mem_reg[1][31]/CE
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/WDOSTORE/AXI_Time_AFIFO/Mem_reg[3][31]/CE
+	base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/WDOSTORE/AXI_Time_AFIFO/Mem_reg[26][17]/CE
+	.. and 849 more pins.
+
+Phase 6 Post Hold Fix | Checksum: 19e764f7e
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:48 . Memory (MB): peak = 1974.090 ; gain = 338.809
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 21.9655 %
+  Global Horizontal Routing Utilization  = 25.5062 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 73.8739%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 89.1892%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X24Y97 -> INT_L_X24Y97
+   INT_R_X27Y89 -> INT_R_X27Y89
+   INT_R_X29Y74 -> INT_R_X29Y74
+   INT_R_X19Y15 -> INT_R_X19Y15
+East Dir 1x1 Area, Max Cong = 79.4118%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 86.7647%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X30Y95 -> INT_L_X30Y95
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 1
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 1
+
+Phase 7 Route finalize | Checksum: 2186a98e6
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:48 . Memory (MB): peak = 1974.090 ; gain = 338.809
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 2186a98e6
+
+Time (s): cpu = 00:05:09 ; elapsed = 00:03:48 . Memory (MB): peak = 1974.090 ; gain = 338.809
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 184613d0c
+
+Time (s): cpu = 00:05:12 ; elapsed = 00:03:51 . Memory (MB): peak = 1974.090 ; gain = 338.809
+
+Phase 10 Post Router Timing
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: ab879a95
+
+Time (s): cpu = 00:05:14 ; elapsed = 00:03:52 . Memory (MB): peak = 1974.090 ; gain = 338.809
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-4.560 | TNS=-23121.883| WHS=0.051  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: ab879a95
+
+Time (s): cpu = 00:05:14 ; elapsed = 00:03:52 . Memory (MB): peak = 1974.090 ; gain = 338.809
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:05:14 ; elapsed = 00:03:53 . Memory (MB): peak = 1974.090 ; gain = 338.809
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+98 Infos, 43 Warnings, 7 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:05:20 ; elapsed = 00:03:59 . Memory (MB): peak = 1974.090 ; gain = 338.809
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 1974.090 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1/base_zynq_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1974.090 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file base_zynq_wrapper_drc_routed.rpt -pb base_zynq_wrapper_drc_routed.pb -rpx base_zynq_wrapper_drc_routed.rpx
+Command: report_drc -file base_zynq_wrapper_drc_routed.rpt -pb base_zynq_wrapper_drc_routed.pb -rpx base_zynq_wrapper_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1/base_zynq_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1974.090 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file base_zynq_wrapper_methodology_drc_routed.rpt -pb base_zynq_wrapper_methodology_drc_routed.pb -rpx base_zynq_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file base_zynq_wrapper_methodology_drc_routed.rpt -pb base_zynq_wrapper_methodology_drc_routed.pb -rpx base_zynq_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1/base_zynq_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1974.090 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file base_zynq_wrapper_power_routed.rpt -pb base_zynq_wrapper_power_summary_routed.pb -rpx base_zynq_wrapper_power_routed.rpx
+Command: report_power -file base_zynq_wrapper_power_routed.rpt -pb base_zynq_wrapper_power_summary_routed.pb -rpx base_zynq_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+110 Infos, 44 Warnings, 7 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 1974.090 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_route_status -file base_zynq_wrapper_route_status.rpt -pb base_zynq_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file base_zynq_wrapper_timing_summary_routed.rpt -pb base_zynq_wrapper_timing_summary_routed.pb -rpx base_zynq_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file base_zynq_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file base_zynq_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file base_zynq_wrapper_bus_skew_routed.rpt -pb base_zynq_wrapper_bus_skew_routed.pb -rpx base_zynq_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Memdata 28-167] Found XPM memory block base_zynq_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the base_zynq_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <base_zynq_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <base_zynq_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force base_zynq_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_10 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH1_intl[0]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH8_intl[3]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_11 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH2_intl[1]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH8_intl[3]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_12 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH1_intl[0]_i_1_n_0, base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH2_intl[1]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH8_intl[3]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_13 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH4_intl[2]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH8_intl[3]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_14 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH1_intl[0]_i_1_n_0, base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH4_intl[2]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH8_intl[3]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_15 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH2_intl[1]_i_1_n_0, base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH4_intl[2]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH8_intl[3]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_16 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH1_intl[0]_i_1_n_0, base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH2_intl[1]_i_1_n_0, base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH4_intl[2]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH8_intl[3]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_4 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH1_intl[0]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH2_intl[1]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_6 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH1_intl[0]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH4_intl[2]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_7 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH2_intl[1]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH4_intl[2]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC IOSR-1] IOB set reset sharing: IO DO_8 connects to flops which have these base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH1_intl[0]_i_1_n_0, base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH2_intl[1]_i_1_n_0, and base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RDAD_WL_SS/CH4_intl[2]_i_1_n_0 set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/ClockBus[CLK250MHz] is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TC_RoundBuffer_i_1/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TC_RoundBuffer_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/ClockBus[SCLK] is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/SIN_i_1/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/SIN_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/ClockBus[SSTIN] is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/BB1_INST_0/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/BB1_INST_0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/reg_data_out_reg[31]_i_2_n_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/reg_data_out_reg[31]_i_2/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/reg_data_out_reg[31]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[1].DFFX/Clk is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[1].DFFX/Q_i_1__6/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[1].DFFX/Q_i_1__6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[4].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[4].DFFX/Q_i_1__85/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[4].DFFX/Q_i_1__85. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[5].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[5].DFFX/Q_i_1__84/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[5].DFFX/Q_i_1__84. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[6].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[6].DFFX/Q_i_1__83/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[6].DFFX/Q_i_1__83. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[7].DFFX/Old_TrigInfo_copy is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[7].DFFX/CurAddr_s[1]_i_1/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[7].DFFX/CurAddr_s[1]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[0].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[0].DFFX/Q_i_1__9/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[0].DFFX/Q_i_1__9. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[10].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[10].DFFX/Q_i_1__4/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[10].DFFX/Q_i_1__4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[11].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[11].DFFX/Q_i_1__2/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[11].DFFX/Q_i_1__2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[12].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[12].DFFX/Q_i_1__11/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[12].DFFX/Q_i_1__11. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[13].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[13].DFFX/Q_i_1__8/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[13].DFFX/Q_i_1__8. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[14].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[14].DFFX/Q_i_1__5/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[14].DFFX/Q_i_1__5. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[15].DFFX/E[0] is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[15].DFFX/Q_i_1__82/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[15].DFFX/Q_i_1__82. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[2].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[2].DFFX/Q_i_1__3/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[2].DFFX/Q_i_1__3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[3].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[3].DFFX/Q_i_1__1/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[3].DFFX/Q_i_1__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[8].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[8].DFFX/Q_i_1__10/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[8].DFFX/Q_i_1__10. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[9].DFFX/Q_reg_0 is a gated clock net sourced by a combinational pin base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[9].DFFX/Q_i_1__7/O, cell base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[9].DFFX/Q_i_1__7. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/SIN_i_1 is driving clock pin of 810 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/FIFOMANAGER/DATA_CLKBUF/DFF_GEN[0].DFF_A/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/FIFOMANAGER/REQ_CLKBUF/DFF_GEN[0].DFF_A/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_SAMPLEMODE/DFF_GEN[0].DFF_AB/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_SAMPLEMODE/DFF_GEN[0].DFF_B/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/FSM_sequential_SSack_stm_reg[0] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/FSM_sequential_SSack_stm_reg[1] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/FSM_sequential_rdad_stm_reg[0] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/FSM_sequential_rdad_stm_reg[1] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/FSM_sequential_ss_incr_stm_reg[0] {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TC_RoundBuffer_i_1 is driving clock pin of 6183 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/cnt_reg[0] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/cnt_reg[10] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/cnt_reg[11] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/cnt_reg[12] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/cnt_reg[13] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/cnt_reg[14] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/cnt_reg[15] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/cnt_reg[16] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/cnt_reg[17] {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_ClockMgmt_inst/TimeCnt_inst/BB1_INST_0 is driving clock pin of 2 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/FSM_sequential_startstorage_stm_reg[0] {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/FSM_sequential_startstorage_stm_reg[1] {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[1].DFFX/Q_i_1__6 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[1].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[4].DFFX/Q_i_1__85 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[4].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[5].DFFX/Q_i_1__84 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[5].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[6].DFFX/Q_i_1__83 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[6].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[7].DFFX/CurAddr_s[1]_i_1 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[7].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[0].DFFX/Q_i_1__9 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[0].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[10].DFFX/Q_i_1__4 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[10].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[11].DFFX/Q_i_1__2 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[11].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[12].DFFX/Q_i_1__11 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[12].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[13].DFFX/Q_i_1__8 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[13].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[14].DFFX/Q_i_1__5 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[14].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[15].DFFX/Q_i_1__82 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[15].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[2].DFFX/Q_i_1__3 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[2].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[3].DFFX/Q_i_1__1 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[3].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[8].DFFX/Q_i_1__10 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[8].DFFX/Q_reg {FDCE}
+WARNING: [DRC PLHOLDVIO-2] Non-Optimal connections which could lead to hold violations: A LUT base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[7].Dly_Trig/DFF_GEN[9].DFFX/Q_i_1__7 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[0].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[10].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[11].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[1].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[2].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[3].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[4].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[5].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+    base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/GEN_DLY_TRIG[6].Dly_Trig/DFF_GEN[9].DFFX/Q_reg {FDCE}
+WARNING: [DRC RTSTAT-10] No routable loads: 79 net(s) have no routable loads. The problem bus(es) and/or net(s) are base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/WDOSTORE/AXI_Empty, base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/CtrlBus_OxMS[RDAD], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/CtrlBus_OxMS[TC_BUS][12], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/CtrlBus_OxMS[TC_BUS][13], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CPU_CONTROLLER_inst/Ctrl_OldAddr_intl[7:0], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_RoundBuffer/CurWindowCnt[7:0], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[11].DFF_B/O2[0], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[12].DFF_B/O2[0], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[14].DFF_B/O2[0], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[13].DFF_B/O2[0], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[16].DFF_B/O2[0], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[15].DFF_B/O2[0], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[18].DFF_B/O2[0], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[17].DFF_B/O2[0], base_zynq_i/TARGET_C_TopLevel_Sy_0/U0/TC_Control_inst/BUF_FSTWINDOWS/DFF_GEN[20].DFF_B/O2[0]... and (the first 15 of 44 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 51 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./base_zynq_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-186] 'V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed Feb 27 15:47:13 2019. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+131 Infos, 95 Warnings, 8 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 2228.137 ; gain = 254.047
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 27 15:47:13 2019...
