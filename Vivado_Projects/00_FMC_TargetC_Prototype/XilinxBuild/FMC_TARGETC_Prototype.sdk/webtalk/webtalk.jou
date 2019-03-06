@@ -2,11 +2,11 @@
 # Webtalk v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # 
-# Start of session at: Fri Feb 15 17:04:54 2019
-# Process ID: 6596
-# Current directory: C:/Users/josed/Documents/RA/WATCHMAN/WATCHMAN-master/Vivado_Projects/00_FMC_TargetC_Prototype/XilinxBuild/FMC_TARGETC_Prototype.sdk/webtalk
+# Start of session at: Tue Mar  5 16:35:33 2019
+# Process ID: 4340
+# Current directory: C:/Users/josed/Documents/GitHub/WMV2code/Vivado_Projects/00_FMC_TargetC_Prototype/XilinxBuild/FMC_TARGETC_Prototype.sdk/webtalk
 # Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
-# Log file: C:/Users/josed/Documents/RA/WATCHMAN/WATCHMAN-master/Vivado_Projects/00_FMC_TargetC_Prototype/XilinxBuild/FMC_TARGETC_Prototype.sdk/webtalk/webtalk.log
-# Journal file: C:/Users/josed/Documents/RA/WATCHMAN/WATCHMAN-master/Vivado_Projects/00_FMC_TargetC_Prototype/XilinxBuild/FMC_TARGETC_Prototype.sdk/webtalk\webtalk.jou
+# Log file: C:/Users/josed/Documents/GitHub/WMV2code/Vivado_Projects/00_FMC_TargetC_Prototype/XilinxBuild/FMC_TARGETC_Prototype.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/josed/Documents/GitHub/WMV2code/Vivado_Projects/00_FMC_TargetC_Prototype/XilinxBuild/FMC_TARGETC_Prototype.sdk/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl
