@@ -2,11 +2,11 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Wed Feb 27 15:35:21 2019
-# Process ID: 3172
-# Current directory: V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1
+# Start of session at: Tue Mar  5 16:26:30 2019
+# Process ID: 10372
+# Current directory: C:/Users/josed/Documents/GitHub/WMV2code/Vivado_Projects/00_FMC_TargetC_Prototype/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1
 # Command line: vivado.exe -log base_zynq_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source base_zynq_wrapper.tcl -notrace
-# Log file: V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1/base_zynq_wrapper.vdi
-# Journal file: V:/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1\vivado.jou
+# Log file: C:/Users/josed/Documents/GitHub/WMV2code/Vivado_Projects/00_FMC_TargetC_Prototype/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1/base_zynq_wrapper.vdi
+# Journal file: C:/Users/josed/Documents/GitHub/WMV2code/Vivado_Projects/00_FMC_TargetC_Prototype/XilinxBuild/FMC_TARGETC_Prototype.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source base_zynq_wrapper.tcl -notrace
